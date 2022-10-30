@@ -85,8 +85,3 @@ void loop()
 }
 
 ```
-# Main scheme
-![Screenshot](main_scheme.png)
-# Result
-![Screenshot](result.png)
-
