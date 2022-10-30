@@ -2,7 +2,7 @@
 ```c
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
-LiquidCrystal_I2C lcd(0x27, 16, 2); // Устанавливаем дисплей
+LiquidCrystal_I2C lcd(0x27, 16, 2);
 
 int analogPin = 0;
 int raw = 0;
@@ -22,7 +22,7 @@ void setup()
 
 void loop()
 {
-    lcd.backlight(); // Включаем подсветку дисплея
+    lcd.backlight(); 
     raw = analogRead(analogPin);
     if (raw)
     {
@@ -85,3 +85,8 @@ void loop()
 }
 
 ```
+# Main scheme
+![Screenshot](main_scheme.png)
+# Result
+![Screenshot](result.png)
+
